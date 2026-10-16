@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 980" fill="none">
+  <defs>
+    <linearGradient id="stone" x1="720" y1="90" x2="1070" y2="950" gradientUnits="userSpaceOnUse"><stop stop-color="#E8C888" stop-opacity=".92"/><stop offset="1" stop-color="#A95C3D" stop-opacity=".14"/></linearGradient>
+    <linearGradient id="glow" x1="886" y1="340" x2="886" y2="890" gradientUnits="userSpaceOnUse"><stop stop-color="#FBE7B3" stop-opacity=".48"/><stop offset="1" stop-color="#D39C58" stop-opacity="0"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#EFCB80" stop-opacity=".24"/><stop offset="1" stop-color="#EFCB80" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#F3D99F" fill-opacity=".48"/></pattern>
+  </defs>
+  <circle cx="1036" cy="434" r="525" fill="url(#halo)"/>
+  <g opacity=".25" stroke="#E6C985"><circle cx="1034" cy="449" r="355"/><circle cx="1034" cy="449" r="380"/><circle cx="1034" cy="449" r="412"/><path d="M1034 42v814M627 449h814M746 161l576 576M746 737l576-576"/></g>
+  <g stroke="url(#stone)" stroke-width="3">
+    <path d="M604 867V568c0-56 19-105 59-146l194-202 194 202c40 41 59 90 59 146v299"/>
+    <path d="M652 867V573c0-44 15-82 46-114l159-165 159 165c31 32 46 70 46 114v294"/>
+    <path d="M718 867V581c0-27 9-51 29-71l110-114 110 114c20 20 29 44 29 71v286"/>
+    <path d="M857 396v471M604 867h506M566 915h582M647 915v-31m82 31v-31m82 31v-31m82 31v-31m82 31v-31m82 31v-31"/>
+    <path d="M857 180c-31 43-31 85 0 126 31-41 31-83 0-126Z"/><path d="M857 198c-18 30-18 59 0 87 18-28 18-57 0-87Z"/>
+    <path d="M684 558c29-35 59-35 88 0-29 36-59 36-88 0Zm260 0c29-35 59-35 88 0-29 36-59 36-88 0Z"/>
+    <path d="M714 645h56m-56 42h56m174-42h56m-56 42h56"/>
+  </g>
+  <path d="M857 453c-97 0-176 79-176 176v211h352V629c0-97-79-176-176-176Z" fill="url(#glow)"/>
+  <path d="M770 867V655a87 87 0 0 1 174 0v212" stroke="#F4DEA8" stroke-opacity=".8" stroke-width="2"/>
+  <path d="M817 867V664a40 40 0 0 1 80 0v203" stroke="#F4DEA8" stroke-opacity=".65" stroke-width="2"/>
+  <path d="M0 920h1500v60H0z" fill="url(#dots)" opacity=".45"/>
+  <g fill="#F4D78F" fill-opacity=".8"><circle cx="475" cy="355" r="3"/><circle cx="1282" cy="197" r="3"/><circle cx="1214" cy="727" r="2"/><circle cx="552" cy="708" r="2"/><circle cx="1164" cy="314" r="2"/></g>
+</svg>

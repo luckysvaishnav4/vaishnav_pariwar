@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const q=document.querySelector('[data-event-search]');q?.addEventListener('input',()=>document.querySelectorAll('[data-event-item],.event-category').forEach(x=>x.hidden=!x.textContent.toLowerCase().includes(q.value.toLowerCase())))});

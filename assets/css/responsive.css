@@ -1,0 +1,47 @@
+@media(max-width:991.98px) {
+    .navbar-collapse {
+        padding: 1rem 0
+    }
+
+    .navbar-nav {
+        gap: .2rem
+    }
+
+    .hero {
+        min-height: 600px;
+        background-position: 60% center
+    }
+
+    .section {
+        padding: 4rem 0
+    }
+}
+
+@media(max-width:575.98px) {
+    .hero {
+        min-height: 630px
+    }
+
+    .hero-content {
+        padding: 4.5rem 0
+    }
+
+    .section {
+        padding: 3.25rem 0
+    }
+
+    .page-hero {
+        padding: 3rem 0 2.3rem
+    }
+
+    .mandala {
+        width: 112px;
+        right: 5%;
+        bottom: 3%;
+        opacity: .35
+    }
+
+    .card-premium img {
+        height: 190px
+    }
+}
